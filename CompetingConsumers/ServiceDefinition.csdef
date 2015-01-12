@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="CompetingConsumers" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WorkerRole name="Receiver" vmsize="Small">
+    <Imports>
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="QueueName" />
+      <Setting name="ServiceBusConnectionString" />
+    </ConfigurationSettings>
+  </WorkerRole>
+  <WorkerRole name="Sender" vmsize="Small">
+    <Imports>
+    </Imports>
+    <ConfigurationSettings>
+      <Setting name="QueueName" />
+      <Setting name="ServiceBusConnectionString" />
+    </ConfigurationSettings>
+  </WorkerRole>
+</ServiceDefinition>
