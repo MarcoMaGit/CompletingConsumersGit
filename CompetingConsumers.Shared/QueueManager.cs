@@ -149,10 +149,5 @@ namespace CompetingConsumers.Shared
                 Trace.TraceError("Exception in QueueClient.ExceptionReceived: {0}", exceptionMessage);
             }
         }
-
-        private void TestMethod()
-        {
-
-        }
     }
 }
