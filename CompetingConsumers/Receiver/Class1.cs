@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Receiver
 {
-    class Class1
+    public class AnyClass
     {
+        private void AnyMethod()
+        {
+            Console.Write("Some works to test!");
+        }
     }
 }
