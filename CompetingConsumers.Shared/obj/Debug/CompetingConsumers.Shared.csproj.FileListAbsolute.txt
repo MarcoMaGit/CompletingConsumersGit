@@ -7,3 +7,12 @@ D:\Azure\SampleCode\Competing Consumers\CompetingConsumers.Shared\bin\Debug\Micr
 D:\Azure\SampleCode\Competing Consumers\CompetingConsumers.Shared\obj\Debug\CompetingConsumers.Shared.csprojResolveAssemblyReference.cache
 D:\Azure\SampleCode\Competing Consumers\CompetingConsumers.Shared\obj\Debug\CompetingConsumers.Shared.dll
 D:\Azure\SampleCode\Competing Consumers\CompetingConsumers.Shared\obj\Debug\CompetingConsumers.Shared.pdb
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\bin\Debug\CompetingConsumers.Shared.dll.config
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\bin\Debug\CompetingConsumers.Shared.dll
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\bin\Debug\CompetingConsumers.Shared.pdb
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\bin\Debug\Microsoft.ServiceBus.dll
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\bin\Debug\Microsoft.ServiceBus.xml
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\obj\Debug\CompetingConsumers.Shared.csprojResolveAssemblyReference.cache
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\obj\Debug\CompetingConsumers.Shared.dll
+D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers.Shared\obj\Debug\CompetingConsumers.Shared.pdb

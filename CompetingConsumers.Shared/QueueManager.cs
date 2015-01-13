@@ -60,7 +60,7 @@ namespace CompetingConsumers.Shared
 
             // Use of Service Bus OnMessage message pump. The OnMessage method must be called once, otherwise an exception will occur.
             this.client.OnMessageAsync(
-                async msg =>
+                async (msg) =>
                 {
                     // Will block the current thread if Stop is called.
                     this.pauseProcessingEvent.WaitOne();

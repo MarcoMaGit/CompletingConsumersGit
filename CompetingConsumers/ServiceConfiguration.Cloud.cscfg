@@ -4,14 +4,14 @@
     <Instances count="2" />
     <ConfigurationSettings>
       <Setting name="QueueName" value="workqueue" />
-      <Setting name="ServiceBusConnectionString" value="[SERVICE BUS CONNECTION STRING]" />
+      <Setting name="ServiceBusConnectionString" value="Endpoint=sb://clouddesignpatternservicebus-ns.servicebus.chinacloudapi.cn/;SharedAccessKeyName=ServiceBusSharedAccessPolicies;SharedAccessKey=+sX1s0N5Jl4tgZoHge31Sro4M8FYxgOdDkk7v4yM00M=" />
     </ConfigurationSettings>
   </Role>
   <Role name="Sender">
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="QueueName" value="workqueue" />
-      <Setting name="ServiceBusConnectionString" value="[SERVICE BUS CONNECTION STRING]" />
+      <Setting name="ServiceBusConnectionString" value="Endpoint=sb://clouddesignpatternservicebus-ns.servicebus.chinacloudapi.cn/;SharedAccessKeyName=ServiceBusSharedAccessPolicies;SharedAccessKey=+sX1s0N5Jl4tgZoHge31Sro4M8FYxgOdDkk7v4yM00M=" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

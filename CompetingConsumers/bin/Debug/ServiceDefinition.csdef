@@ -17,7 +17,7 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="D:\Azure\SampleCode\Competing Consumers\CompetingConsumers\rcf\Debug\ReceiverContent\" />
+        <SourceDirectory path="D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers\rcf\Debug\ReceiverContent\" />
       </Content>
     </Contents>
   </WorkerRole>
@@ -29,7 +29,7 @@
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="D:\Azure\SampleCode\Competing Consumers\CompetingConsumers\rcf\Debug\SenderContent\" />
+        <SourceDirectory path="D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers\rcf\Debug\SenderContent\" />
       </Content>
     </Contents>
   </WorkerRole>

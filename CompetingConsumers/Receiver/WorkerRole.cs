@@ -36,15 +36,23 @@ namespace Receiver
 
         public override bool OnStart()
         {
-            // Set the maximum number of concurrent connections 
-            ServicePointManager.DefaultConnectionLimit = 12;
+            try
+            {
+                // Set the maximum number of concurrent connections 
+                ServicePointManager.DefaultConnectionLimit = 12;
 
-            var queueName = CloudConfigurationManager.GetSetting("QueueName");
-            var connectionString = CloudConfigurationManager.GetSetting("ServiceBusConnectionString");
+                var queueName = CloudConfigurationManager.GetSetting("QueueName");
+                var connectionString = CloudConfigurationManager.GetSetting("ServiceBusConnectionString");
 
-            this.queueManager = new QueueManager(queueName, connectionString);
-            this.queueManager.Start().Wait();
-
+                this.queueManager = new QueueManager(queueName, connectionString);
+                this.queueManager.Start().Wait();
+            }
+            catch (Exception e)
+            {
+                Trace.WriteLine("Exception during OnStart: " + e.ToString());
+                // Take other action as needed.
+            }
+            
             return base.OnStart();
         }
 

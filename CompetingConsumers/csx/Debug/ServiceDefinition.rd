@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CompetingConsumers" generation="1" functional="0" release="0" Id="3a1c5471-82fc-4589-a320-275d59d7c6b0" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CompetingConsumers" generation="1" functional="0" release="0" Id="571aaeb4-097d-4ada-8e95-2bd10a0b43c0" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="CompetingConsumersGroup" generation="1" functional="0" release="0">
       <settings>
@@ -68,7 +68,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="Receiver" generation="1" functional="0" release="0" software="D:\Azure\SampleCode\Competing Consumers\CompetingConsumers\csx\Debug\roles\Receiver" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="Receiver" generation="1" functional="0" release="0" software="D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers\csx\Debug\roles\Receiver" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="QueueName" defaultValue="" />
               <aCS name="ServiceBusConnectionString" defaultValue="" />
@@ -86,7 +86,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="Sender" generation="1" functional="0" release="0" software="D:\Azure\SampleCode\Competing Consumers\CompetingConsumers\csx\Debug\roles\Sender" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="Sender" generation="1" functional="0" release="0" software="D:\Azure\SampleCode\CompletingConsumersGit\CompetingConsumers\csx\Debug\roles\Sender" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="-1" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <settings>
               <aCS name="QueueName" defaultValue="" />
               <aCS name="ServiceBusConnectionString" defaultValue="" />
